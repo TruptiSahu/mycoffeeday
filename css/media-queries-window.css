@@ -1,0 +1,224 @@
+/* Section: Home */
+.top-navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+  /* padding: 20px 0px; */
+  background: none;
+}
+
+.toggle-menu {
+  display: none;
+}
+
+.navbar__links {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 0;
+  flex-basis: auto;
+  height: auto;
+  overflow: visible;
+}
+
+.navbar__link {
+  margin-left: 40px;
+}
+
+.navbar__cart {
+  width: auto;
+  position: relative;
+}
+
+.navbar__cart span {
+  position: absolute;
+  top: 0;
+  right: -50%;
+}
+
+/* Section: Info (START) */
+#info {
+  position: relative;
+  background: #000;
+}
+
+#info .container-wrap,
+.blogs-posts {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.cafe-info {
+  padding-left: 0px;
+}
+
+.cafe-info__lists {
+  width: 65%;
+}
+
+.cafe-booking {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 35%;
+}
+
+.cafe-booking h2 {
+  margin-bottom: 0;
+}
+
+.booking-form__list {
+  flex-direction: row;
+}
+
+.booking-form__list input,
+.booking-form__list textarea {
+  margin-right: 20px;
+}
+
+.booking-form__list textarea {
+  overflow: hidden;
+}
+
+/* Section: Info (END) */
+
+/* Section: Our Story (START) */
+#story .left-col,
+#story .right-col {
+  height: 90vh;
+}
+
+#story .right-col .container__content {
+  width: 80%;
+  left: -150px;
+}
+
+#story .container-col {
+  margin: 15px;
+  justify-content: flex-start;
+}
+
+/* Section: Our Story (END) */
+
+/* Section: Our Menu(START) */
+#menu .left-col__img:nth-of-type(2) {
+  margin-top: 40px;
+}
+
+#menu .left-col__img:nth-of-type(3) {
+  margin-top: -30px;
+}
+
+#menu .left-col__img:nth-of-type(4) {
+  margin-top: 5px;
+}
+
+/* Section: Our Menu (END) */
+
+/* Section: Our Achievement (START) */
+#achievement .container__cols {
+  justify-content: center;
+  width: 80%;
+}
+
+#achievement .container-col {
+  width: auto;
+  flex-basis: auto;
+}
+
+/* Section: Our Achievement (END) */
+
+/* Section: Our Best Sellers (START) */
+#best-sellers .container-col {
+  flex: 1 1 0;
+  padding: 15px;
+}
+
+#best-sellers .container__desc,
+#products .container__desc,
+#customers .container__desc,
+#blogs .container__desc {
+  padding: 0 300px;
+}
+
+.best-sellers__image::before,
+.best-sellers__image::after {
+  width: 60px;
+  height: 60px;
+}
+
+.best-sellers__image::before {
+  line-height: 60px;
+}
+
+/* Section: Our Product (END) */
+
+/* Section: Our Customers (END) */
+.best-sellers__image {
+  width: auto;
+  flex: 1 1 0;
+  padding: 0;
+}
+
+/* Section: Our Best Sellers (END) */
+
+/* Section: Our Product (START) */
+#products .menu-items {
+  width: 40%;
+}
+
+/* Section: Our Product (END) */
+
+/* Section: Our Customers (END) */
+.testimonials {
+  flex-wrap: nowrap;
+}
+
+.testimonial {
+  width: auto;
+  flex-basis: auto;
+}
+
+/* Section: Our Customers (END) */
+
+/* Section: Blogs (START) */
+.blogs-post {
+  flex: 1 1 0;
+  margin: 20px;
+  margin-bottom: 80px;
+}
+
+/* Section: Blogs (END) */
+
+/* Footer */
+footer .container {
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+}
+
+footer .footer__list {
+  width: auto;
+  padding: 0 20px;
+  flex-basis: 0;
+}
+
+footer .footer__list:nth-of-type(1) {
+  flex-grow: 2;
+}
+
+footer .footer__list:nth-of-type(2) {
+  flex-grow: 4;
+}
+
+footer .footer__list:nth-of-type(3) {
+  flex-grow: 1;
+}
+
+footer .footer__list:nth-of-type(4) {
+  flex-grow: 3;
+}

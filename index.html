@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="icon.svg" type="image/x-icon">
+
+  <!-- CSS StyleSheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- CSS Media Queries(Tab) -->
+  <link rel="stylesheet" media="screen and (min-width: 768px)" href="css/media-queries-tab.css">
+
+  <!-- CSS Media Queries(Window) -->
+  <link rel="stylesheet" media="screen and (min-width: 1024px)" href="css/media-queries-window.css">
+
+
+  <title>Coffee Day | Home</title>
+</head>
+
+<body>
+  <header>
+
+    <!-- Top Navbar -->
+    <div class="top-navbar">
+      <div class="container">
+        <div class="navbar__logo">
+          <h3>Coffee <span>Day</span></h3>
+        </div>
+        <div class="toggle-menu">
+          <ion-icon name="menu"></ion-icon>
+          Menu
+        </div>
+        <ul class="navbar__links">
+          <li class="navbar__link active-link"><a href="#home">Home</a></li>
+          <li class="navbar__link"><a href="#story">About</a></li>
+          <li class="navbar__link"><a href="#menu">Menu</a></li>
+          <li class="navbar__link"><a href="#best-sellers">Services</a></li>
+          <li class="navbar__link"><a href="#blogs">Blog</a></li>
+          <li class="navbar__link"><a href="#footer">Contact</a></li>
+          <li class="navbar__link navbar__cart">
+            <ion-icon name="cart"></ion-icon>
+            <span class="card__value">1</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Section: Home -->
+    <div class="home">
+      <div class="slideshow-item">
+        <img src="./images/overlay/bg_1.jpg" alt="">
+        <div class="slideshow-item-text slide-up">
+          <h3 class="home__subtitle">Welcome</h3>
+          <h1 class="home__title">The Best Coffee Testing Experience</h1>
+          <p class="home__description">A small river named Duden flows by their place and supplies it with the necessary
+            regelialia.</p>
+          <div class="home__buttons">
+            <a href="#" class="home__btn--order btn-primary btn-1">Order Now</a>
+            <a href="#menu" class="home__btn--menu btn-primary btn-border">View Menu</a>
+          </div>
+        </div>
+      </div>
+      <div class="slideshow-item">
+        <img src="./images/overlay/bg_2.jpg" alt="">
+        <div class="slideshow-item-text">
+          <h3 class="home__subtitle">Welcome</h3>
+          <h1 class="home__title">Amazing Taste & Beautiful Place</h1>
+          <p class="home__description">A small river named Duden flows by their place and supplies it with the necessary
+            regelialia.</p>
+          <div class="home__buttons">
+            <a href="#" class="home__btn--order btn-primary btn-1">Order Now</a>
+            <a href="#menu" class="home__btn--menu btn-primary btn-border">View Menu</a>
+          </div>
+        </div>
+      </div>
+      <div class="slideshow-item">
+        <img src="./images/overlay/bg_3.jpg" alt="">
+        <div class="slideshow-item-text">
+          <h3 class="home__subtitle">Welcome</h3>
+          <h1 class="home__title">Creamy Hot and Ready to Serve</h1>
+          <p class="home__description">A small river named Duden flows by their place and supplies it with the necessary
+            regelialia.</p>
+          <div class="home__buttons">
+            <a href="#" class="home__btn--order btn-primary btn-1">Order Now</a>
+            <a href="#menu" class="home__btn--menu btn-primary btn-border">View Menu</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="slideshow-dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section: Info -->
+    <section id="info">
+      <div class="container-wrap">
+        <div class="cafe-info">
+          <ul class="cafe-info__lists">
+            <li class="cafe-info__list slide-up">
+              <ion-icon name="call-sharp"></ion-icon>
+              <div class="info-wrap">
+                <h3 class="cafe-info__heading">000 (123) 456 7890</h3>
+                <p class="cafe-info__description">A small river named Duden flows by their place and supplies.</p>
+              </div>
+            </li>
+            <li class="cafe-info__list slide-up">
+              <ion-icon name="location-sharp"></ion-icon>
+              <div class="info-wrap">
+                <h3 class="cafe-info__heading">198 West 21th Street</h3>
+                <p class="cafe-info__description">203 Fake St. Mountain View, San Francisco, California, USA</p>
+              </div>
+            </li>
+            <li class="cafe-info__list slide-up">
+              <ion-icon name="time-sharp"></ion-icon>
+              <div class="info-wrap">
+                <h3 class="cafe-info__heading">Open Monday-Friday</h3>
+                <p class="cafe-info__description">8:00am - 9:00pm</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="cafe-booking">
+          <h2 class="cafe-booking__heading">Book A Table</h2>
+          <form class="cafe-booking__form">
+            <li class="booking-form__list">
+              <input type="text" name="fistName" placeholder="First Name">
+              <input type="text" name="lastName" placeholder="Last Name">
+            </li>
+            <li class="booking-form__list">
+              <input type="date" name="calender" id="" placeholder="Date">
+              <input type="time" name="time" id="" placeholder="Time">
+              <input type="number" name="phone" id="" placeholder="Phone">
+            </li>
+            <li class="booking-form__list">
+              <textarea name="" id="" placeholder="Message"></textarea>
+              <a class="btn-primary btn-booking">Appointment</a>
+            </li>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Our Story -->
+    <section id="story">
+      <div class="container-wrap">
+        <div class="left-col">
+          <img src="./images/about.jpg" alt="">
+        </div>
+        <div class="right-col slide-up">
+          <div class="container__content">
+            <h1 class="container__title">Discover</h1>
+            <h2 class="container__subtitle">Our Story</h2>
+            <p class="container__desc">
+              On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have
+              been rewritten a thousand times and everything that was left from its origin would be the word "and" and
+              the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said
+              could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her
+              drunk with Longe and Parole and dragged her into their agency, where they abused her for their.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container-wrap">
+        <div class="container">
+          <ul class="container__cols">
+            <li class="container-col">
+              <div class="container-col__img">
+                <img src="./images/choices.svg" alt="">
+              </div>
+              <h3 class="container-col__title">Easy To Order</h3>
+              <p class="container-col__subtitle">Even the all-powerful Pointing has no control about the blind texts it
+                is
+                an almost unorthographic.</p>
+            </li>
+            <li class="container-col">
+              <div class="container-col__img">
+                <img src="./images/delivery-truck.svg" alt="">
+              </div>
+              <h3 class="container-col__title">Fastest Delivery</h3>
+              <p class="container-col__subtitle">Even the all-powerful Pointing has no control about the blind texts it
+                is
+                an almost unorthographic.</p>
+            </li>
+            <li class="container-col">
+              <div class="container-col__img">
+                <img src="./images/coffee-beans.svg" alt="">
+              </div>
+              <h3 class="container-col__title">Quality Coffee</h3>
+              <p class="container-col__subtitle">Even the all-powerful Pointing has no control about the blind texts it
+                is
+                an almost unorthographic.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section: Our Menu -->
+    <section id="menu">
+      <div class="container">
+        <div class="left-col">
+          <div class="left-col__img">
+            <img src="images/menu-4.jpg" alt="Reload the page">
+          </div>
+          <div class="left-col__img">
+            <img src="images/menu-2.jpg" alt="Reload the page">
+          </div>
+          <div class="left-col__img">
+            <img src="images/menu-3.jpg" alt="Reload the page">
+          </div>
+          <div class="left-col__img">
+            <img src="images/menu-1.jpg" alt="Reload the page">
+          </div>
+        </div>
+        <div class="right-col">
+          <div class="container__content slide-up">
+            <h1 class="container__title">Discover</h1>
+            <h2 class="container__subtitle">Our Menu</h2>
+            <p class="container__desc">
+              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+              ocean.
+            </p>
+            <a href="#" class="menu-btn btn-primary btn-border">View Full Menu</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Section: Our Achievement -->
+    <section id="achievement">
+      <div class="container-wrap">
+        <div class="container">
+          <ul class="container__cols number-count">
+            <li class="container-col">
+              <div class="container-col__img">
+                <img src="./images/coffee-cup.svg" alt="">
+              </div>
+              <h3 class="container-col__title" id="noOfBranches">100</h3>
+              <p class="container-col__subtitle">Coffee Branches</p>
+            </li>
+            <li class="container-col">
+              <div class="container-col__img">
+                <img src="./images/coffee-cup.svg" alt="">
+              </div>
+              <h3 class="container-col__title" id="noOfAwards">85</h3>
+              <p class="container-col__subtitle">Number of Awards</p>
+            </li>
+            <li class="container-col">
+              <div class="container-col__img">
+                <img src="./images/coffee-cup.svg" alt="">
+              </div>
+              <h3 class="container-col__title" id="noOfCustomers">10,567</h3>
+              <p class="container-col__subtitle">Happy Customer</p>
+            </li>
+            <li class="container-col">
+              <div class="container-col__img">
+                <img src="./images/coffee-cup.svg" alt="">
+              </div>
+              <h3 class="container-col__title" id="noOfStaff">900</h3>
+              <p class="container-col__subtitle">Staff</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section: Best Sellers -->
+    <section id="best-sellers">
+      <div class="container slide-up">
+        <div class="container__content">
+          <h1 class="container__title">Discover</h1>
+          <h2 class="container__subtitle">BEST COFFEE SELLERS</h2>
+          <p class="container__desc">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts.
+          </p>
+        </div>
+
+        <ul class="container__cols">
+          <li class="container-col">
+            <div class="container-col__img">
+              <img src="./images/menu-1.jpg" alt="">
+            </div>
+            <h3 class="container-col__title">COFFEE CAPUCCINO</h3>
+            <p class="container-col__subtitle">A small river named Duden flows by their place and supplies</p>
+            <h3 class="container-col__price">$5.90</h3>
+            <a href="#" class="addToCart-btn btn-primary btn-border">Add to Cart</a>
+          </li>
+
+          <li class="container-col">
+            <div class="container-col__img">
+              <img src="./images/menu-2.jpg" alt="">
+            </div>
+            <h3 class="container-col__title">COFFEE CAPUCCINO</h3>
+            <p class="container-col__subtitle">A small river named Duden flows by their place and supplies</p>
+            <h3 class="container-col__price">$5.90</h3>
+            <a href="#" class="addToCart-btn btn-primary btn-border">Add to Cart</a>
+          </li>
+
+          <li class="container-col">
+            <div class="container-col__img">
+              <img src="./images/menu-3.jpg" alt="">
+            </div>
+            <h3 class="container-col__title">COFFEE CAPUCCINO</h3>
+            <p class="container-col__subtitle">A small river named Duden flows by their place and supplies</p>
+            <h3 class="container-col__price">$5.90</h3>
+            <a href="#" class="addToCart-btn btn-primary btn-border">Add to Cart</a>
+          </li>
+
+          <li class="container-col">
+            <div class="container-col__img">
+              <img src="./images/menu-4.jpg" alt="">
+            </div>
+            <h3 class="container-col__title">COFFEE CAPUCCINO</h3>
+            <p class="container-col__subtitle">A small river named Duden flows by their place and supplies</p>
+            <h3 class="container-col__price">$5.90</h3>
+            <a href="#" class="addToCart-btn btn-primary btn-border">Add to Cart</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="best-sellers__images">
+        <li class="best-sellers__image  slide-up">
+          <img src="/images/gallery-1.jpg" alt="Reload the page">
+        </li>
+        <li class="best-sellers__image">
+          <img src="/images/gallery-2.jpg" alt="Reload the page">
+        </li>
+        <li class="best-sellers__image  slide-up">
+          <img src="/images/gallery-3.jpg" alt="Reload the page">
+        </li>
+        <li class="best-sellers__image">
+          <img src="/images/gallery-4.jpg" alt="Reload the page">
+        </li>
+      </ul>
+
+    </section>
+
+    <!-- Section: Our Product -->
+    <section id="products">
+      <div class="container">
+        <div class="container__content slide-up">
+          <h1 class="container__title">Discover</h1>
+          <h2 class="container__subtitle">OUR PRODUCTS</h2>
+          <p class="container__desc">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts.
+          </p>
+        </div>
+
+        <ul class="menu-items slide-up">
+          <li class="menu-item menu-item--active">
+            Main Dish
+          </li>
+          <li class="menu-item">
+            Drinks
+          </li>
+          <li class="menu-item">
+            Desserts
+          </li>
+        </ul>
+
+        <ul class="container__cols-3 slide-up">
+          <li class="container-col">
+            <div class="container-col__img">
+              <img src="./images/dish-1.jpg" alt="">
+            </div>
+            <h3 class="container-col__title">GRILLED BEEF</h3>
+            <p class="container-col__subtitle">A small river named Duden flows by their place and supplies</p>
+            <h3 class="container-col__price">$2.90</h3>
+            <a href="#" class="addToCart-btn btn-primary btn-border">Add to Cart</a>
+          </li>
+
+          <li class="container-col">
+            <div class="container-col__img">
+              <img src="./images/dish-2.jpg" alt="">
+            </div>
+            <h3 class="container-col__title">GRILLED BEEF</h3>
+            <p class="container-col__subtitle">A small river named Duden flows by their place and supplies</p>
+            <h3 class="container-col__price">$2.90</h3>
+            <a href="#" class="addToCart-btn btn-primary btn-border">Add to Cart</a>
+          </li>
+
+          <li class="container-col">
+            <div class="container-col__img">
+              <img src="./images/dish-3.jpg" alt="">
+            </div>
+            <h3 class="container-col__title">GRILLED BEEF</h3>
+            <p class="container-col__subtitle">A small river named Duden flows by their place and supplies</p>
+            <h3 class="container-col__price">$2.90</h3>
+            <a href="#" class="addToCart-btn btn-primary btn-border">Add to Cart</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section: Our Customers -->
+    <section id="customers">
+      <div class="container">
+        <div class="container__content slide-up">
+          <h1 class="container__title">Testimony</h1>
+          <h2 class="container__subtitle">CUSTOMERS SAYS</h2>
+          <p class="container__desc">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts.
+          </p>
+        </div>
+      </div>
+
+      <ul class="testimonials">
+        <li class="testimonial">
+          <p class="testimonial__review">“Stopped here for breakfast because this has been a good restaurant for meals
+            at anyectetur adipisicing elit. Sed debitis, laboriosam ullam”</p>
+          <div class="testimonial__details">
+            <img class="testimonial__img" src="/images/person_1.jpg" alt="">
+            <div>
+              <h2 class="testimonial__name">Louise Kelly</h2>
+              <h2 class="testimonial__profession">Illustrator Designer</h2>
+            </div>
+          </div>
+        </li>
+        <li class="testimonial slide-up">
+          <p class="testimonial__review">“Stopped here for breakfast because this has been a good restaurant
+            for <i class="fas fa-cloud-meatball"></i>
+            breakfast skillets.amet consectetur adipisicing elit. ”</p>
+          <div class="testimonial__details">
+            <img class="testimonial__img" src="/images/person_2.jpg" alt="">
+            <div>
+              <h2 class="testimonial__name">Jerry Bruckheimer</h2>
+              <h2 class="testimonial__profession">Illustrator Designer</h2>
+            </div>
+          </div>
+        </li>
+        <li class="testimonial">
+          <p class="testimonial__review">“Sto
+            at any time of day for many years now. You can just count on a decent meal when you stop here. I like the
+            breakfast skillets.”</p>
+          <div class="testimonial__details">
+            <img class="testimonial__img" src="/images/person_3.jpg" alt="">
+            <div>
+              <h2 class="testimonial__name">Jesse Westerberg</h2>
+              <h2 class="testimonial__profession">Illustrator Designer</h2>
+            </div>
+          </div>
+        </li>
+        <li class="testimonial slide-up">
+          <p class="testimonial__review">“Stopped here for breakfast because this has been a good restaurant for meals
+            breakfast skillets
+          </p>
+          <div class="testimonial__details">
+            <img class="testimonial__img" src="/images/person_4.jpg" alt="">
+            <div>
+              <h2 class="testimonial__name">Peter Parker</h2>
+              <h2 class="testimonial__profession">Illustrator Designer</h2>
+            </div>
+          </div>
+        </li>
+        <li class="testimonial">
+          <p class="testimonial__review">“Stopped here for breakfast because this has been a good restaurant for mealsme
+            of day
+            breakfast skillets.”</p>
+          <div class="testimonial__details">
+            <img class="testimonial__img" src="/images/person_5.jpg" alt="">
+            <div>
+              <h2 class="testimonial__name">Susan Summers</h2>
+              <h2 class="testimonial__profession">Illustrator Designer</h2>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Section: Blogs -->
+    <section id="blogs">
+      <div class="container">
+        <div class="container__content slide-up">
+          <h2 class="container__subtitle">RECENT FROM BLOG</h2>
+          <p class="container__desc">
+            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+            blind texts.
+          </p>
+        </div>
+      </div>
+
+      <ul class="blogs-posts slide-up">
+        <li class="blogs-post">
+          <img class="blogs-posts__img" src="/images/image_1.jpg" alt="">
+          <div class="blogs-posts__details">
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon>
+              Oct 21,2020
+            </p>
+            <p>
+              <ion-icon name="person-outline"></ion-icon>Admin
+            </p>
+            <p>
+              <ion-icon name="chatbox-ellipses-outline"></ion-icon> 3
+            </p>
+          </div>
+          <h2 class="blogs-post__title">The Delicious Pizza</h2>
+          <p class="blogs-post__desc">A small river named Duden flows by their place and supplies it with the necessary
+            regelialia</p>
+        </li>
+        <li class="blogs-post">
+          <img class="blogs-posts__img" src="/images/menu-4.jpg" alt="">
+          <div class="blogs-posts__details">
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon>
+              Oct 21,2020
+            </p>
+            <p>
+              <ion-icon name="person-outline"></ion-icon>Admin
+            </p>
+            <p>
+              <ion-icon name="chatbox-ellipses-outline"></ion-icon> 3
+            </p>
+          </div>
+          <h2 class="blogs-post__title">Surprise for JENN ;)</h2>
+          <p class="blogs-post__desc">Thanks for the Awesome "SPOOKY MATCHING GAME". Really loved the game and learned a
+            lot. So, expressing my gratitude through this website.</p>
+        </li>
+        <li class="blogs-post">
+          <img class="blogs-posts__img" src="/images/image_3.jpg" alt="">
+          <div class="blogs-posts__details">
+            <p>
+              <ion-icon name="calendar-outline"></ion-icon>
+              Oct 21,2020
+            </p>
+            <p>
+              <ion-icon name="person-outline"></ion-icon>Admin
+            </p>
+            <p>
+              <ion-icon name="chatbox-ellipses-outline"></ion-icon> 3
+            </p>
+          </div>
+          <h2 class="blogs-post__title">The Delicious Pizza</h2>
+          <p class="blogs-post__desc">A small river named Duden flows by their place and supplies it with the necessary
+            regelialia</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <ul class="footer__list">
+        <h2 class="footer__title">About Us</h2>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+          texts.</p>
+        <div class="social-icons">
+          <a class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+      </ul>
+      <ul class="footer__list">
+        <h2 class="footer__title">Recent Blog</h2>
+        <ul class="footer-blogs__lists">
+          <li class="footer-blogs__list">
+            <img src="/images/image_1.jpg" alt="">
+            <div>
+              <h2>Even the all-powerful Pointing has no control about</h2>
+              <div class="blogs-posts__details">
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  Oct 21,2020
+                </p>
+                <p>
+                  <ion-icon name="person-outline"></ion-icon>
+                  Admin
+                </p>
+                <p>
+                  <ion-icon name="chatbox-ellipses-outline"></ion-icon> 3
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="footer-blogs__list">
+            <img src="/images/image_2.jpg" alt="">
+            <div>
+              <h2>Even the all-powerful Pointing has no control about</h2>
+              <div class="blogs-posts__details">
+                <p>
+                  <ion-icon name="calendar-outline"></ion-icon>
+                  Oct 21,2020
+                </p>
+                <p>
+                  <ion-icon name="person-outline"></ion-icon>
+                  Admin
+                </p>
+                <p>
+                  <ion-icon name="chatbox-ellipses-outline"></ion-icon> 3
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </ul>
+      <ul class="footer__list footer__services">
+        <h2 class="footer__title">Services</h2>
+        <p>Cooked</p>
+        <p>Deliver</p>
+        <p>Quality</p>
+        <p>Mixed</p>
+      </ul>
+      <ul class="footer__list">
+        <h2 class="footer__title">Have A Question?</h2>
+        <li class="footer__qna">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+        </li>
+        <li class="footer__qna">
+          <i class="fas fa-phone-alt"></i>
+          <p>+1 234 5678 928</p>
+        </li>
+        <li class="footer__qna">
+          <i class="fas fa-envelope"></i>
+          <p>support@coffeeday.com</p>
+        </li>
+      </ul>
+
+    </div>
+    <ul class="footer-bottom">Copyright &copy;2020 All rights reserved <br>
+      <span>|</span> "COFFEE DAY"</ul>
+  </footer>
+
+
+
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+  <!-- Ionicon -->
+  <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+</body>
+
+</html>
